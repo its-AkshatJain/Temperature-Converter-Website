@@ -1,0 +1,72 @@
+body{
+    background-color:grey;
+    background-image: url("../temperature-converter.webp");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    background-color: black;
+    color:white;
+    box-shadow: 3px 5px 8px 15px white;
+    font-family: 'Tilt Prism', cursive;
+    font-size:2.5rem;
+    padding:1%;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+
+.box{
+    /* background-color: white; */
+    /* border: 5px solid blue; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:5%;
+    width:60%;
+    /* if you want set background color then decrease width to make it look good */
+}
+
+.temp{
+    display: flex;
+    padding:0;
+}
+
+.small-box{
+    margin:0.4rem;
+    padding:8%;
+    border-radius:0.5rem;
+    font-size: 1rem;
+    font-weight:700;
+}
+
+.icon{
+    font-size: 2rem;
+    height:2rem;
+    margin:auto;
+    padding:4% 6%;
+    background-color: red;
+    border-radius:0.5rem;
+    border: 1px solid white;
+    color:white;
+    text-align: center;
+}
+
+.button{
+    background-color: red;
+    color:white;
+    padding:0.8rem 1.3rem;
+}
+
+.button:hover{
+    background-color: lightcoral;
+}
